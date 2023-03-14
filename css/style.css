@@ -170,7 +170,7 @@
 }
 .search-box{
       width: 540px;
-      height: 80px;
+      /* height: 80px; */
       padding: 12px;
       border-bottom: 1px solid #222;
       background: none;
@@ -1165,7 +1165,7 @@ footer{
       }
       .search-box{
             width: 400px;
-            height: 60px;
+            /* height: 60px; */
             font-size: 1.75rem;
       }
       .floater-txt-1{
@@ -1443,7 +1443,7 @@ footer{
             height: 30px;
       }
       .nav-mo{
-            padding: 40px 40px 20px 40px;
+            padding: 32px 40px 20px 40px;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -1593,6 +1593,7 @@ footer{
       }
       .search-background-wrap{
             margin: 0;
+            width: 80%;
       }
       .search-right-wrap{
             width: 100%;
@@ -1602,18 +1603,19 @@ footer{
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-end;
       }
 
       .search-box{
-            width: 440px;
+            font-size: 1.5rem;
+            width: 360px;
       }
       .close-btn {
             top: 40px;
             right: 40px;
       }
       .recommend-word {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
       }
 
       .footer-floater-wrap{
@@ -1625,6 +1627,16 @@ footer{
 @media (max-width:630px){
       section {
             margin-bottom: 100px;
+      }
+      .search-box {
+            font-size: 1.3rem;
+            width: 320px;
+        }
+      .recommend-word {
+            font-size: 1rem;
+        }
+      .word-box a{
+            font-size: 0.75rem;
       }
       .wide-banner-txt-wrap {
             width: 100%;
@@ -1666,6 +1678,10 @@ footer{
       .nav-mo{
             padding: 40px 30px 20px 30px;
       }
+      .search-box {
+            font-size: 1.25rem;
+            width: 260px;
+        }
       .new-title-txt h1, .new-title-txt h2 {
             font-size: 1.75rem;
       }
